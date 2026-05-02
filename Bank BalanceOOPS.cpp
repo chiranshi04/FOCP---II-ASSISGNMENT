@@ -9,7 +9,7 @@ public:
 
     bool CREATE(int x, int y)
     {
-        if                                   (id[x] == 0)
+        if  (id[x] == 0)
         {
             id[x] = 1;
             money[x] = y;
